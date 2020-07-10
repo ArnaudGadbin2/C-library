@@ -1,0 +1,23 @@
+/*
+** EPITECH PROJECT, 2019
+** ok
+** File description:
+** ok
+*/
+
+int my_compute_square_root( int nb)
+{
+    int i = 1;
+    if(nb < 0){
+        return (0);
+    }
+    while(nb != i * i){
+        nb = i * i;
+        i++;
+    }
+    return (i);
+}
+int main()
+{
+    my_compute_square_root(25);
+}
