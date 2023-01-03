@@ -4,6 +4,7 @@
 ## File description:
 ## task01
 ##
+
 SRC	=	*.c
 
 OBJ	=	*.o
@@ -22,4 +23,4 @@ clean:
 fclean:
 	rm -f $(NAME)
 
-re:	clean all
+re: all clean
